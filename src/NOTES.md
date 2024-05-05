@@ -1,5 +1,3 @@
-# Group Routing:
-##  Group routing is the process of logically grouping routes without affecting the urls segments
-
-## To implement a group routing wrap a folder with paranthesis ie. (auth)
-## It helps in making code more readable and collaborative
+# Layouts:
+## Page is UI tha is unique to a route
+## Layout is UI that is shared accross multiple pages 
