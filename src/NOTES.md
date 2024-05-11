@@ -1,4 +1,12 @@
-# Routes conventions
-## All routes muct be placed inside app folder
-## All files corresponding to routes must be named page.jsx or page.tsx
-## Every folder corresponding to path segment in the web browser
+# Routing Metadata:
+##### It enhances application visibility and outreachability.
+
+## Categories of Routing metadata:
+### 1. Static routing metadata
+### 2. Dynamic routing generteMetadata
+
+### Routing metadata can be exported in:
+###### 1. layout.tsx
+###### 2. page.tsx
+
+### When exported in both pages.tsx and layout.tsx, page.tsx will override the metadata and display them
