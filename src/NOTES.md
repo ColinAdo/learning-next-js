@@ -1,12 +1,9 @@
-# Routing Metadata:
-##### It enhances application visibility and outreachability.
+# Title Metadata:
+### Title metadata can be in form of:
+##### 1. String metadata
+##### 2. Object metadata
 
-## Categories of Routing metadata:
-### 1. Static routing metadata
-### 2. Dynamic routing generteMetadata
-
-### Routing metadata can be exported in:
-###### 1. layout.tsx
-###### 2. page.tsx
-
-### When exported in both pages.tsx and layout.tsx, page.tsx will override the metadata and display them
+### The object metadata includes:
+##### 1. absolute metadata - It is used when title is needed to override template title
+##### 2. default metadata - It is used for on the fly title for children props
+##### 3. template metadata - It is used to add a prefix string to the page.tsx file
