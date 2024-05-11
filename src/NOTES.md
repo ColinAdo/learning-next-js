@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Routing Metadata:
 ##### It enhances application visibility and outreachability.
 
@@ -11,8 +10,3 @@
 ###### 2. page.tsx
 
 ### When exported in both pages.tsx and layout.tsx, page.tsx will override the metadata and display them
-=======
-# Layouts:
-## Page is UI tha is unique to a route
-## Layout is UI that is shared accross multiple pages 
->>>>>>> main
