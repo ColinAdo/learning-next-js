@@ -1,6 +1,5 @@
-# Navigating Programmatically:
-## To navigate programmatically we use useRouter to get the url
-## push(); is used to redirect to desired url
-## forward(); is usedto redirect the url forward
-## back(); is used to redirect the url back
-## replace(); is used to remove the history of url
+# Template File:
+## Template file is same as layout file in that they display the child props
+## In template when user navigate through routes of the same template, the state changes, the new instance of component is mounted, the DOM is recreated and effects are synchronized
+
+## Templates are defined by exporting a function in a file called template.tsx or template.js
