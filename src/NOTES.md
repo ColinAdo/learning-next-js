@@ -1,7 +1,6 @@
-# Link component navigation
-### Is a UI component that allows user to navigate through pages
-### It can be used by importing it from next/link
-#### import Link from 'next/link';
-### replace prop:
-#### Is used to replaces the currecnt history states rather than adding new url to the page
-
+# Navigating Programmatically:
+## To navigate programmatically we use useRouter to get the url
+## push(); is used to redirect to desired url
+## forward(); is usedto redirect the url forward
+## back(); is used to redirect the url back
+## replace(); is used to remove the history of url
