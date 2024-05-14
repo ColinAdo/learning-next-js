@@ -1,3 +1,4 @@
+"use client";
 export default function ReviewDetail({ params }: {
     params: {
         productId: string;
