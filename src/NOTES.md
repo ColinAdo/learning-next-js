@@ -1,4 +1,7 @@
-# Routes conventions
-## All routes muct be placed inside app folder
-## All files corresponding to routes must be named page.jsx or page.tsx
-## Every folder corresponding to path segment in the web browser
+# Error Handling:
+## This is done in  the file called error.tsx or error.js
+## For it to work run:
+### npm run build
+### npm run start
+## This is because error is not handled in development mode
+## Make sure to add "use client " at the top of error.tsx file
