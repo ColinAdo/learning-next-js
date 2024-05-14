@@ -1,5 +1,7 @@
-# Template File:
-## Template file is same as layout file in that they display the child props
-## In template when user navigate through routes of the same template, the state changes, the new instance of component is mounted, the DOM is recreated and effects are synchronized
-
-## Templates are defined by exporting a function in a file called template.tsx or template.js
+# Error Handling:
+## This is done in  the file called error.tsx or error.js
+## For it to work run:
+### npm run build
+### npm run start
+## This is because error is not handled in development mode
+## Make sure to add "use client " at the top of error.tsx file
