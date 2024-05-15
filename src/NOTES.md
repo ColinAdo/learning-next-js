@@ -4,3 +4,5 @@
 ## It allows collaboration and job allocation
 ## It allows independent routing i.e loading and error handling
 ## Performing filter or other operations without affecting the other pages or sections
+
+## Parallel routng is achieved by using slots i.e @users, @revenue etc, they act as props in the layout.
