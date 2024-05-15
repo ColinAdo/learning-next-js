@@ -1,7 +1,6 @@
-# Error Handling:
-## This is done in  the file called error.tsx or error.js
-## For it to work run:
-### npm run build
-### npm run start
-## This is because error is not handled in development mode
-## Make sure to add "use client " at the top of error.tsx file
+# Parallel Routing:
+## Is a routing technique that allow to display different pages in the same layout
+## FIt allow code segmentation and allow developer to break code into different segments
+## It allows collaboration and job allocation
+## It allows independent routing i.e loading and error handling
+## Performing filter or other operations without affecting the other pages or sections
