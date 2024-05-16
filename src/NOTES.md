@@ -1,5 +1,5 @@
-# Route Handers:
-## Route Handers allow to ccreate a custom request handler fro a given route
+# Route handlers:
+## Route handlers allow to ccreate a custom request handler fro a given route
 
 # Route handler Conventions:
 ## The convention of route handlers is by using the behavior name of the request i.e GET, POST, PUT etc
