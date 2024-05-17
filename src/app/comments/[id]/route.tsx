@@ -1,7 +1,4 @@
-import { join } from 'path';
 import { comments } from '../data';
-import { json } from 'stream/consumers';
-import { comment } from 'postcss';
 
 export async function GET(
     _request: Request,
