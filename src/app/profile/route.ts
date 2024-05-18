@@ -8,5 +8,9 @@ export async function GET(request: NextRequest) {
     console.log(requestHeaders.get('Authorization'));
     console.log(headersList.get('Authorization'));
 
-    return new Response("Profile GET");
+    return new Response("<h2>Profile GET</h2>", {
+        headers: {
+            "Content-Type": "text/html"
+        }
+    });
 }
