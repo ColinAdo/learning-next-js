@@ -1,7 +1,6 @@
-# Catch in Route handler:
-## Route handlers are catced by default using GET requests
-# How to avoid Catch in route handler:
-## Use other http verbs except GET 
-## By using headers and cookies methods
-## Using Request object with GET 
-## Using Segment Config Option
+# Middleware:
+## Middleware is tool that allow to intercept or control the request and response 
+## It offers redirect, rewrite, authentication of route and manage headers and cookies 
+# It manages the route using two techniques:
+## By using custom matcher config
+## Using conditional approaches
