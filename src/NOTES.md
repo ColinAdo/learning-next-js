@@ -1,6 +1,3 @@
-# Middleware:
-## Middleware is tool that allow to intercept or control the request and response 
-## It offers redirect, rewrite, authentication of route and manage headers and cookies 
-# It manages the route using two techniques:
-## By using custom matcher config
-## Using conditional approaches
+# Streeming:
+## Is strategy that allow for progressive UI rendering from the server
+## It significantly reduce the initail page load performance.
